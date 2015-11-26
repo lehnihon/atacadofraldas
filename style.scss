@@ -1,5 +1,5 @@
 /*
-Theme Name: henjinovo
+Theme Name: atacadofraldas
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -29,6 +29,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'content';
 	@import 'footer';
 
+	.fixar {
+	    position:fixed;
+	    z-index: 1000;
+	    margin-top: 0px !important;
+	    right: 0;
+	    left: 0;
+	    background-color: #FFFFFF;
+	    box-shadow: 0px 5px 2px #888888;
+
+	}
 
 }
 .e-cinza:hover{
