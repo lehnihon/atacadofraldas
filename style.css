@@ -130,17 +130,108 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: none; }
     #page ul.menu-principal {
       display: block; } }
+  #page #content #banner {
+    margin-bottom: 60px; }
+    #page #content #banner .banner-row {
+      margin-bottom: 30px; }
+  #page #content #marcas {
+    margin-bottom: 60px; }
+  #page #content #redes {
+    margin-bottom: 60px; }
+    #page #content #redes .redes_sociais_bot {
+      margin-bottom: 5px;
+      height: 80px;
+      text-align: center;
+      list-style: none;
+      margin: 0 auto;
+      margin-top: 30px;
+      padding: 0; }
+    #page #content #redes .redes_sociais_bot li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page #content #redes .redes_sociais_bot a {
+      display: inline-block;
+      width: 79px;
+      height: 80px; }
+    #page #content #redes .redes_sociais_bot .youtube {
+      background-image: url("images/redes_bot.jpg");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 79px;
+      height: 80px;
+      display: inline-block; }
+    #page #content #redes .redes_sociais_bot .instagram {
+      background-image: url("images/redes_bot.jpg");
+      background-position: -88px,center;
+      background-repeat: no-repeat;
+      width: 79px;
+      height: 80px;
+      display: inline-block; }
+    #page #content #redes .redes_sociais_bot .twitter {
+      background-image: url("images/redes_bot.jpg");
+      background-position: -175px,center;
+      background-repeat: no-repeat;
+      width: 79px;
+      height: 80px;
+      display: inline-block; }
+    #page #content #redes .redes_sociais_bot .facebook {
+      background-image: url("images/redes_bot.jpg");
+      background-position: right,center;
+      background-repeat: no-repeat;
+      width: 79px;
+      height: 80px;
+      display: inline-block; }
   #page #footer {
-    color: #FFFFFF;
-    text-align: left; }
-  #page .fixar {
-    position: fixed;
-    z-index: 1000;
-    margin-top: 0px !important;
-    right: 0;
-    left: 0;
-    background-color: #FFFFFF;
-    box-shadow: 0px 5px 2px #888888; }
+    text-align: left;
+    color: #FFFFFF; }
+    #page #footer div.footer-content {
+      padding: 50px 0;
+      background-color: #364598; }
+      #page #footer div.footer-content ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        #page #footer div.footer-content ul a {
+          color: #FFFFFF; }
+        #page #footer div.footer-content ul a:hover {
+          color: #fff40e; }
+    #page #footer div.copyrino {
+      text-align: center;
+      color: #606060;
+      background-color: #eeeeee;
+      padding: 20px 0; }
+      #page #footer div.copyrino .col-md-10 {
+        padding: 12px; }
+        #page #footer div.copyrino .col-md-10 a {
+          color: #606060; }
+        #page #footer div.copyrino .col-md-10 a:hover {
+          color: #bfbfbf; }
+  #page a {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #606060; }
+  #page a:hover {
+    text-decoration: none; }
+  #page h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffc500; }
+  #page h1.small {
+    font-size: 24px;
+    color: #ffc500;
+    font-weight: bold; }
+  #page h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffc500;
+    font-weight: bold; }
+  #page h4 {
+    font-size: 20px; }
+  #page h5 {
+    font-size: 16px;
+    font-weight: normal; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
