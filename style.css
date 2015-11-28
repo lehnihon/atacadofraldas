@@ -131,11 +131,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page ul.menu-principal {
       display: block; } }
   #page #content section#banner {
-    margin-bottom: 60px; }
+    margin-bottom: 80px; }
     #page #content section#banner .banner-row {
       margin-bottom: 30px; }
   #page #content section#marcas {
-    margin-bottom: 60px; }
+    background-color: #efefef;
+    margin-bottom: 80px; }
   #page #content section#categorias {
     margin-top: 40px;
     margin-bottom: 80px; }
@@ -185,7 +186,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page #content section#produto-relacionado .container article a:hover {
           background-color: #929dd8; }
   #page #content section#redes {
-    margin-bottom: 60px; }
+    margin-bottom: 80px; }
     #page #content section#redes .redes_sociais_bot {
       margin-bottom: 5px;
       height: 80px;
@@ -230,6 +231,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 79px;
       height: 80px;
       display: inline-block; }
+  #page #content section#contato {
+    margin-bottom: 80px;
+    margin-top: 40px; }
   @media (max-width: 991px) {
     #page section#banner .col-md-3, #page section#banner .col-md-4 {
       margin-bottom: 50px; }
@@ -272,7 +276,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page a:hover {
     text-decoration: none; }
   #page h1 {
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 20px;
     font-size: 36px;
     color: #ffc500; }
@@ -283,12 +287,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .blue {
     color: #364598 !important; }
   #page h2 {
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 20px;
     font-size: 24px;
     color: #ffc500;
     font-weight: bold; }
+  #page h3 {
+    margin-top: 0; }
   #page h4 {
+    margin-top: 0;
     font-size: 20px; }
   #page h5 {
     font-size: 16px;

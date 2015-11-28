@@ -40,7 +40,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	h1{
-		margin: 0;
+		margin-top: 0;
 		margin-bottom: 20px;
 		font-size: 36px;
 		color:#ffc500;
@@ -58,14 +58,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	h2{
-		margin: 0;
+		margin-top: 0;
 		margin-bottom: 20px;
 		font-size: 24px;
 		color:#ffc500;
 		font-weight: bold;
 	}
 
+	h3{
+		margin-top: 0;
+	}
+
 	h4{
+		margin-top: 0;
 		font-size: 20px;
 	}
 

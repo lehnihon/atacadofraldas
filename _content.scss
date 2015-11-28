@@ -1,6 +1,6 @@
 #content{
 	section#banner{
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 
 		.banner-row{
 			margin-bottom: 30px;
@@ -8,7 +8,8 @@
 	}
 
 	section#marcas{
-		margin-bottom: 60px;
+		background-color:#efefef;
+		margin-bottom: 80px;
 	}
 
 	section#categorias{
@@ -86,7 +87,7 @@
 	}
 
 	section#redes{
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 
 		.redes_sociais_bot{
 			margin-bottom: 5px;
@@ -146,6 +147,12 @@
 			display:inline-block;		
 		}		
 	}
+
+	section#contato{
+		margin-bottom: 80px;
+		margin-top: 40px;
+	}
+
 }
 
 @media (max-width: 991px) {  

@@ -24,7 +24,7 @@ get_header(); ?>
 	</section>
 
 	<section id="marcas">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12">			
 					<?php putRevSlider( "marcas" ) ?>
