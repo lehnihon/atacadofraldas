@@ -139,20 +139,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #content section#categorias {
     margin-top: 40px;
     margin-bottom: 80px; }
-    #page #content section#categorias article {
-      border: 1px solid #D8D8D8;
-      padding: 25px 10px;
-      min-height: 395px; }
-      #page #content section#categorias article a {
-        background-color: #364598;
-        color: white;
-        padding: 10px;
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 25px; }
-      #page #content section#categorias article a:hover {
-        background-color: #929dd8; }
+    #page #content section#categorias .row {
+      margin-bottom: 20px; }
+      #page #content section#categorias .row article {
+        border: 1px solid #D8D8D8;
+        padding: 25px 10px;
+        min-height: 395px; }
+        #page #content section#categorias .row article a {
+          background-color: #364598;
+          color: white;
+          padding: 10px;
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 25px; }
+        #page #content section#categorias .row article a:hover {
+          background-color: #929dd8; }
   #page #content section#produto-single {
     margin-bottom: 20px; }
     #page #content section#produto-single article div.slider1 {
@@ -228,6 +230,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 79px;
       height: 80px;
       display: inline-block; }
+  @media (max-width: 991px) {
+    #page section#banner .col-md-3, #page section#banner .col-md-4 {
+      margin-bottom: 50px; }
+    #page section#produto-relacionado .col-md-3, #page section#produto-relacionado .col-md-4 {
+      margin-bottom: 50px; }
+    #page section#categorias {
+      margin-bottom: 0 !important; }
+      #page section#categorias .row {
+        margin-bottom: 0 !important; }
+        #page section#categorias .row .col-md-3, #page section#categorias .row .col-md-4 {
+          margin-bottom: 50px; } }
   #page #footer {
     text-align: left;
     color: #FFFFFF; }

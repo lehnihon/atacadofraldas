@@ -15,23 +15,27 @@
 		margin-top: 40px;
 		margin-bottom: 80px;
 
-		article{
-			border: 1px solid #D8D8D8;
-			padding:25px 10px;
-			min-height: 395px;
+		.row{
+			margin-bottom: 20px;
 
-			a{
-				background-color:#364598;
-				color:white;
-				padding:10px;
-				display: block;
-				width: 80%;
-				margin: 0 auto;
-				margin-top: 25px;
-			}
-			a:hover{
-				background-color:#929dd8;
-			}
+			article{
+				border: 1px solid #D8D8D8;
+				padding:25px 10px;
+				min-height: 395px;
+
+				a{
+					background-color:#364598;
+					color:white;
+					padding:10px;
+					display: block;
+					width: 80%;
+					margin: 0 auto;
+					margin-top: 25px;
+				}
+				a:hover{
+					background-color:#929dd8;
+				}
+			}			
 		}
 	}
 
@@ -145,7 +149,28 @@
 }
 
 @media (max-width: 991px) {  
+	section#banner{
+		.col-md-3, .col-md-4{
+			margin-bottom: 50px;
+		}
+	}
 
+	section#produto-relacionado{
+		.col-md-3, .col-md-4{
+			margin-bottom: 50px;
+		}
+	}
+
+	section#categorias{
+		margin-bottom: 0!important;
+		.row{
+			margin-bottom: 0!important;
+
+			.col-md-3, .col-md-4{
+				margin-bottom: 50px;
+			}
+		}
+	}
 }
 
 @media (min-width: 992px) {  

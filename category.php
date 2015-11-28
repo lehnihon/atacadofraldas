@@ -23,7 +23,7 @@ get_header(); ?>
 							</article>
 						</div>
 						<?php if($wp_query->current_post == 3): ?>
-							</div><br><div class="row">
+							</div><div class="row">
 						<?php endif; ?>		
 					<?php endwhile; ?>										
 				</div>
