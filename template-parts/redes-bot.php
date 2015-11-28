@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Atacado das Fraldas nas redes sociais</h2>
-				<h5>Acompanhe a Nobre Art Design nas redes sociais e confira todas as nossas novidades.</h5>
+				<h5>Acompanhe o Atacado das Fraldas nas redes sociais e confira todas as nossas novidades.</h5>
 			</div>
 		</div><!-- .row -->
 		<div class="row">

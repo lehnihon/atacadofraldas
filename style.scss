@@ -48,9 +48,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	h1.small{
 		font-size: 24px;
-		color:#ffc500;
+		color:#606060;		
 		font-weight: bold;
 
+	}
+
+	.blue{
+		color:#364598 !important;
 	}
 
 	h2{
@@ -69,6 +73,68 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		font-size:16px;
 		font-weight: normal;
 	}
+
+	.videoWrapper {
+	    position: relative;
+	    padding-bottom: 56.25%; /* 16:9 */
+	    padding-top: 25px;
+	    height: 0;
+	}
+	.videoWrapper iframe {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}	
+
+	.basebreadcrumb {
+		font-size: 0.8em;
+		padding: 0.5em 1em;
+		background:#fff;
+		margin-bottom:20px;
+		text-align: left;
+	}
+
+	.bx-wrapper .bx-viewport{
+		-webkit-box-shadow: 0 0 0px ; 
+	    box-shadow: 0 0 0px ; 
+	    border: 0px solid white; 
+	    left: 0px;
+
+		.bx-clone{
+		   display: none !important;
+		} 		
+	}
+
+	div.paginacao{
+		margin-top: 50px;
+		.page-numbers{
+			padding:5px;
+			background-color:#ececec;
+		}
+		.current{
+			background-color:#ffc700;
+		}
+	}
+
+	.btn-receba{ 
+		background-color: #fff40e;
+		color: #4e67cf;
+		padding:5px 25px;
+		border:0;
+	}
+	.btn-receba:hover{
+		background-color:#fff86e;
+	}
+	.input-receba-wrap{
+		margin-bottom: 5px;
+		color:#606060;
+	}
+	.input-receba{
+		border:0;
+		padding:5px
+	}	
 
 }
 .e-cinza:hover{
