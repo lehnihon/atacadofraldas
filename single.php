@@ -15,7 +15,7 @@ get_header(); ?>
 				<article class="row">	
 					<?php while ( have_posts() ) : the_post(); ?>
 						<div class="col-md-6">
-							<?php the_post_thumbnail('home-thumb', array('class' => "img-responsive")); ?>
+							<?php the_post_thumbnail('', array('class' => "img-responsive")); ?>
 							<div class="slider1">			
 								<?php
 							    if ( get_post_gallery() ) :
@@ -33,7 +33,7 @@ get_header(); ?>
 							<div class="wrap">
 								<h1 class="small"><?php the_title(); ?></h1>
 								<h5><?php categoryList(); ?></h5>
-								<div class="content"><?php echo strip_shortcodes(get_the_content()); ?></div>
+								<div class="content"><?php echo strip_shortcodes(wpautop( get_the_content() )); ?></div>
 							</div>
 						</div>	
 					<?php endwhile; ?>										
