@@ -47,28 +47,28 @@
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo esc_url( home_url( '/' )."roupa-infantil" ); ?>">Roupa Infantil</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' )."acessorios-bebe" ); ?>">Acessórios Bebê</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."leite"; ?>">Leite</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."hora-do-banho"; ?>">Hora do Banho</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."absorvente"; ?>">Absorvente</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."higiene-pessoal"; ?>">Higiene Pessoal</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."bolsas"; ?>">Bolsas</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."fralda-adulto"; ?>">Fralda Adulto</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."fralda-infantil"; ?>">Fralda Infantil</a></li
+								<li><a href="<?php echo esc_url( home_url( '/' )."categoria/roupa-infantil" ); ?>">Roupa Infantil</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>
 						<ul class="menu-principal">
-							<li><a href="<?php echo esc_url( home_url( '/' )."roupa-infantil" ); ?>">Roupa Infantil</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."acessorios-bebe" ); ?>">Acessórios Bebê</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."leite"; ?>">Leite</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."hora-do-banho"; ?>">Hora do Banho</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."absorvente"; ?>">Absorvente</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."higiene-pessoal"; ?>">Higiene Pessoal</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."bolsas"; ?>">Bolsas</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fralda-adulto"; ?>">Fralda Adulto</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fralda-infantil"; ?>">Fralda Infantil</a></li
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/roupa-infantil" ); ?>">Roupa Infantil</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
