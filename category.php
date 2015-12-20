@@ -18,7 +18,7 @@ get_header(); ?>
 						<div class="col-md-3">
 							<article style="display:none">
 								<strong><?php the_title(); ?></strong><br><br>
-								<?php the_post_thumbnail('home-thumb', array('class' => "img-responsive e-cinza")); ?>
+								<?php the_post_thumbnail('', array('class' => "img-responsive e-cinza")); ?>
 								<a href="<?php the_permalink(); ?>">Saiba Mais</a>
 							</article>
 						</div>
