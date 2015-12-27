@@ -12,9 +12,9 @@ get_header('sem-banner'); ?>
 				</div>
 				<div class="col-md-6 text-left">
 					<p><strong>Localização</strong> </p>
-					<p>Avenida Ário Barnabé, XXXX - Jardim Morada do Sol Indaiatuba - São Paulo</p>
-					<p>XX XXXX-XXXX</p>
-					<p>contato@nobreartedesign.com.br</p>				
+					<p>Avenida Ario Barnabé - 1083, Jardim Morada Sol Indaiatuba - São Paulo</p>
+					<p>3935-5456</p>
+					<p>contato@atacadodasfraldas.com.br</p>				
 				</div>
 			</div><!-- .row -->
 		</div><!-- .container -->

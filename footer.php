@@ -9,7 +9,7 @@
 							<br>Além de bolsas, absorventes, leite, acessórios e roupas para bebês.
 							<br><br>
 							<strong>Endereço</strong>
-							<br><br>Avenida Ário Barnabé, XXXX - Jardim Morada do Sol 
+							<br><br>Avenida Ario Barnabé - 1083, Jardim Morada Sol
 							<br>Indaiatuba - São Paulo
 						</p>
 					</div>

@@ -35,7 +35,7 @@
 						<li class="facebook"><a target="_blank" href="https://www.facebook.com/xtremegoldteam"></a></li>
 					</ul>
 					<div class="header-tel">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telefone.jpg"; ?>"/> <span>11 <strong>2694-4771</strong></span>
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telefone.jpg"; ?>"/> <span>11 <strong>3935-5456</strong></span>
 					</div>					
 				</div>
 			</div><!-- .row -->
