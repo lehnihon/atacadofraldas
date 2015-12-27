@@ -345,6 +345,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-receba {
     border: 0;
     padding: 5px; }
+  #page .btn-enviar {
+    background-color: #ffc500;
+    padding: 10px 25px;
+    color: white;
+    border: 0;
+    font-weight: bold; }
+  #page .btn-enviar:hover {
+    background-color: #ffe27f; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);

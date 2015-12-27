@@ -12,8 +12,8 @@ get_header('sem-banner'); ?>
 				</div>
 				<div class="col-md-6 text-left">
 					<p><strong>Localização</strong> </p>
-					<p>Rua São Jorge, 86 - Tatuapé, São Paulo</p>
-					<p>011 3938-0200</p>
+					<p>Avenida Ário Barnabé, XXXX - Jardim Morada do Sol Indaiatuba - São Paulo</p>
+					<p>XX XXXX-XXXX</p>
 					<p>contato@nobreartedesign.com.br</p>				
 				</div>
 			</div><!-- .row -->

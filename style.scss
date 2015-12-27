@@ -140,6 +140,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		border:0;
 		padding:5px
 	}	
+	.btn-enviar{
+		background-color:#ffc500;
+		padding:10px 25px;
+		color:white;
+		border:0;
+		font-weight: bold;
+	}
+	.btn-enviar:hover{
+		background-color:#ffe27f;
+	}
 
 }
 .e-cinza:hover{
