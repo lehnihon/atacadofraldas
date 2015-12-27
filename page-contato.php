@@ -13,7 +13,7 @@ get_header('sem-banner'); ?>
 				<div class="col-md-6 text-left">
 					<p><strong>Localização</strong> </p>
 					<p>Avenida Ario Barnabé - 1083, Jardim Morada Sol Indaiatuba - São Paulo</p>
-					<p>3935-5456</p>
+					<p>19 3935-5456</p>
 					<p>contato@atacadodasfraldas.com.br</p>				
 				</div>
 			</div><!-- .row -->
