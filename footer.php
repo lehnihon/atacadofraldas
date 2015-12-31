@@ -16,20 +16,18 @@
 					<div class="col-md-2 col-md-offset-1">
 						<strong>Produtos</strong><br><br>
 						<ul>
-							<?php
-							$args = array(
-								'posts_per_page' => 10,
-							    'orderby' => 'rand');
-							$query = new WP_Query( $args );
-
-							while ( $query->have_posts() ) : $query->the_post(); 
-							?>
-								<?php if($query->current_post == 5): ?>
-									<?php echo '</div><div class="col-md-2"><br><br><ul>'; ?>
-								<?php endif; ?>
-								<li><a href="<?php the_permalink(); ?>"><?php the_title( );?></a></li>
-							<?php endwhile; ?>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/roupa-infantil" ); ?>">Roupa Infantil</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
 						</ul>	
+						<ul>
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
+						</ul>
 					</div>
 					<div class="col-md-3">
 						<strong>Receba nossas novidades</strong>

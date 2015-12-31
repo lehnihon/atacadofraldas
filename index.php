@@ -14,10 +14,10 @@ get_header(); ?>
 					<?php putRevSlider( "categoria1" ) ?>
 				</div>
 				<div class="col-md-4">		
-					<?php putRevSlider( "categoria1" ) ?>
+					<?php putRevSlider( "categoria2" ) ?>
 				</div>
 				<div class="col-md-4">		
-					<?php putRevSlider( "categoria1" ) ?>
+					<?php putRevSlider( "categoria3" ) ?>
 				</div>
 			</div>
 		</div>

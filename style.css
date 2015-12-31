@@ -234,6 +234,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #content section#contato {
     margin-bottom: 80px;
     margin-top: 40px; }
+    #page #content section#contato div.quadro {
+      padding: 25px 50px;
+      background-color: #364598;
+      color: white;
+      margin-top: 10px; }
   @media (max-width: 991px) {
     #page section#banner .col-md-3, #page section#banner .col-md-4 {
       margin-bottom: 50px; }
@@ -345,14 +350,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-receba {
     border: 0;
     padding: 5px; }
+  #page .input-contato {
+    border: 0;
+    padding: 5px;
+    background-color: #f4f4f4; }
   #page .btn-enviar {
-    background-color: #ffc500;
-    padding: 10px 25px;
+    background-color: #364598;
+    padding: 10px 50px;
     color: white;
     border: 0;
-    font-weight: bold; }
+    font-weight: bold;
+    border-radius: 10px; }
   #page .btn-enviar:hover {
-    background-color: #ffe27f; }
+    background-color: #868FC1; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
