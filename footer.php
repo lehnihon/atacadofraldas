@@ -20,13 +20,15 @@
 							><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
-						</ul>	
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2"><br><br>	
 						<ul>
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
+							<li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">

@@ -76,7 +76,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           display: inline-block; }
         #page #header div.header-logo div.redes-tel div.header-tel {
           color: #ffc500;
-          font-size: 20px; }
+          font-size: 26px; }
+          #page #header div.header-logo div.redes-tel div.header-tel img {
+            margin-bottom: 5px; }
     #page #header div.header-menu nav {
       border-radius: 10px;
       background-color: #ffc500; }
