@@ -7,7 +7,7 @@ get_header('sem-banner'); ?>
 			<div class="row">
 				<div class="col-md-12">
 					<h4 class="blue"><strong>Contato</strong></h4>
-				</div>
+				</div><br><br><br>
 			</div><!-- .row -->
 			<div class="row">
 				<div class="col-md-6 text-left">
