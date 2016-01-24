@@ -340,12 +340,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.paginacao .current {
       background-color: #ffc700; }
   #page .btn-receba {
-    background-color: #fff40e;
+    background-color: #ffe800;
     color: #4e67cf;
     padding: 5px 25px;
     border: 0; }
   #page .btn-receba:hover {
-    background-color: #fff86e; }
+    background-color: #fff376; }
   #page .input-receba-wrap {
     margin-bottom: 5px;
     color: #606060; }
