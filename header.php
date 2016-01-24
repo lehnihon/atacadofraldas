@@ -29,10 +29,10 @@
 				</div>
 				<div class="col-md-offset-6 col-md-3 redes-tel">
 					<ul class="redes_sociais_header">
-						<li class="youtube"><a target="_blank" href="https://www.youtube.com/user/academiaxtremegold"></a></li>
-						<li class="instagram"><a target="_blank" href="https://instagram.com/xtremegoldteamct/"></a></li>
-						<li class="twitter"><a target="_blank" href="https://twitter.com/xtremegoldteam"></a></li>
-						<li class="facebook"><a target="_blank" href="https://www.facebook.com/xtremegoldteam"></a></li>
+						<li class="youtube"><a target="_blank" href="#"></a></li>
+						<li class="instagram"><a target="_blank" href="https://www.instagram.com/atacadodasfraldasindaia/"></a></li>
+						<li class="twitter"><a target="_blank" href="#"></a></li>
+						<li class="facebook"><a target="_blank" href="https://www.facebook.com/atacadodasfraldasindaia/?fref=ts  "></a></li>
 					</ul>
 					<div class="header-tel">
 						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telefone.jpg"; ?>"/> <span>19 <strong>3935-5456</strong></span>
