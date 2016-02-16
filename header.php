@@ -36,7 +36,10 @@
 					</ul>
 					<div class="header-tel">
 						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telefone.jpg"; ?>"/> <span>19 <strong>3935-5456</strong></span>
-					</div>					
+					</div>	
+					<div class="header-tel">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/whats.jpg"; ?>"/> <span>19 <strong>99597-0327</strong></span>
+					</div>				
 				</div>
 			</div><!-- .row -->
 			<div class="row header-menu">
