@@ -237,12 +237,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page #content section#contato {
     margin-bottom: 80px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    text-align: left; }
+    #page #content section#contato h4 {
+      margin-bottom: 15px;
+      text-align: center; }
+    #page #content section#contato img {
+      margin-bottom: 15px; }
     #page #content section#contato div.quadro {
       padding: 25px 50px;
       background-color: #364598;
       color: white;
       margin-top: 10px; }
+    #page #content section#contato .redes {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px; }
+      #page #content section#contato .redes li {
+        float: left;
+        margin-right: 10px; }
   @media (max-width: 991px) {
     #page section#banner .col-md-3, #page section#banner .col-md-4 {
       margin-bottom: 50px; }
@@ -367,6 +381,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border-radius: 10px; }
   #page .btn-enviar:hover {
     background-color: #868FC1; }
+  #page .btn-saiba {
+    background-color: #364598;
+    padding: 10px 50px;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    margin-top: 20px; }
+  #page .btn-saiba:hover {
+    background-color: #868FC1; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
@@ -376,5 +399,3 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
-
-/*# sourceMappingURL=style.css.map */
